@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>ToDoList</title>
+<body>
+<div id="main1">
+    <div id="formdiv">
+        <form id="TodoList">
+            <label for="TodoName">TodoName</label>
+            <input type="text" name="TodoName" id="TodoName">
+            <label for="TodoType">TodoDesc</label>
+            <input type="text" name="TodoType" id="TodoType">
+            <button id="add">ADD</button>
+        </form>
+    </div>    
+    <div id="TodoRem">
+            <table name="TodoPending" id="TodoPending">
+                <thead>
+                    <td>Item</td>
+                    <td>Description</td>
+                    <td>Status</td>
+                </thead>
+
+                <tbody id="TodoPendingAdd">
+
+                </tbody>
+            </table>
+    </div>        
+    <div id="TodoComp">
+            <table name="TodoCompleted" id="TodoCompleted">
+                <thead>
+                    <td>Item</td>
+                    <td>Description</td>
+                    <td>Status</td>
+                </thead>
+
+                <tbody id="TodoCompletedAdd">
+
+                </tbody>
+            </table>
+
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script src="Todo_js.js"></script>
+
+
+
+</html>
